@@ -1,5 +1,32 @@
-# Ngram Type
+# German Ngram Type
 
+This project is a fork of https://github.com/ranelpadon/ngram-type, 
+but using German ngrams that I researched myself. The hosted version 
+is located at https://ghaarm.github.io/ngram-type-ger/.
+
+For how I found and extracted the German n-grams, see the 
+[ETL](https://github.com/ghaarm/ngram-type-ger/tree/master/etl) section.
+
+
+The following table compares the top 10 bigrams, trigrams and tetragrams in used in 
+the English, French and German version of Ngram-Type. 
+
+|  # | Bigrams (en) | Bigrams (fr) |  Bigrams (ger) |Trigrams (en) | Trigrams (fr) | Trigrams (ger) | Tetragrams (en) | Tetragrams (fr) | Tetragrams (ger) |
+|:--:|:------------:|:------------:|:--------------:|-------------:|:-------------:|:--------------:|:---------------:|:---------------:|:----------------:|
+|  1 |      th      |      le      |       en       |     the      |      ent      |       ich       |      tion       |       dans      |       eine      |
+|  2 |      he      |      de      |       er       |     and      |      les      |       ein       |      atio       |       ment      |       icht      |
+|  3 |      in      |      en      |       ch       |     ing      |      ait      |       der       |      that       |       pour      |       chen      |
+|  4 |      er      |      re      |       ei       |     ion      |      lle      |       sch       |      ther       |       omme      |       lich      |
+|  5 |      an      |      ai      |       de       |     tio      |      our      |       und       |      with       |       étai      |       sich      |
+|  6 |      re      |      ou      |       nd       |     ent      |      tre      |       die       |      ment       |       plus      |       nich      |
+|  7 |      on      |      on      |       te       |     ati      |      ous      |       ine       |      ions       |       tout      |       sche      |
+|  8 |      at      |      qu      |       in       |     for      |      des      |       den       |      this       |       vous      |       sein      |
+|  9 |      en      |      nt      |       ie       |     her      |      ais      |       cht       |      here       |       tait      |       nder      |
+| 10 |      nd      |      it      |       es       |     ter      |      ant      |       che       |      from       |       mais      |       chte      |
+
+Original README content below the break:
+
+---
 
 ## About
 
@@ -90,4 +117,9 @@ You could access the online version using GitHub Pages:
     - https://github.com/edmundlam/ngram-type-fr/
   - Hosted Version:
     - https://edmundlam.github.io/ngram-type-fr/
+- German
+  - Project Page:
+    - https://github.com/ghaarm/ngram-type-ger/
+  - Hosted Version:
+    - https://ghaarm.github.io/ngram-type-ger/
 
