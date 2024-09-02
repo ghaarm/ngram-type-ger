@@ -6,7 +6,7 @@
 
     <meta name="description" content="German touch typing trainer using German N-grams as data source, with option to customize the auto-generated lesson and specify the minimum typing performance needed. There are sound/color effects as well.">
     <meta name="keywords" content="ngrams, ngram type, ngram, n-gram, typing, touch typing, keyboard layout, colemak, dvorak, norman, workman, francais, french, ngramme, n-gramme, dactylo, dactylographie">
-    <meta name="author" content="Ranel Padon, Edmund Lam">
+    <meta name="author" content="Ranel Padon, ghaarm">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="MYzJNTw8fIzIQWntgI4hvt0W_I8jD_6sGIPgZbWJjhA" />
 
@@ -33,6 +33,8 @@
     <script src="./ngrams/bigrams.js"></script>
     <script src="./ngrams/trigrams.js"></script>
     <script src="./ngrams/tetragrams.js"></script>
+    <script src="./ngrams/pentagrams.js"></script>
+    <script src="./ngrams/hexagrams.js"></script>
     <script src="./ngrams/words.js"></script>
 
     <!-- VueJS -->
@@ -150,6 +152,28 @@
                             v-model="data.source"
                         >
                         <label class="custom-control-label" for="tetra-grams">Tetragrams</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input
+                            type="radio"
+                            class="custom-control-input"
+                            id="penta-grams"
+                            name="source-radio-group"
+                            value="pentagrams"
+                            v-model="data.source"
+                        >
+                        <label class="custom-control-label" for="penta-grams">Pentagrams</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input
+                            type="radio"
+                            class="custom-control-input"
+                            id="hexa-grams"
+                            name="source-radio-group"
+                            value="hexagrams"
+                            v-model="data.source"
+                        >
+                        <label class="custom-control-label" for="hexa-grams">Hexagrams</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input
@@ -344,17 +368,17 @@
 
         <!--Footer start-->
         <footer>
-            <h3 class="title-wrapper center card-header"><a href="https://github.com/edmundlam/ngram-type-fr" target="_blank" class="title">
+            <h3 class="title-wrapper center card-header"><a href="https://github.com/ghaarm/ngram-type-ger" target="_blank" class="title">
                 Ngram Type - German
             </a></h3>
             <div class="title-wrapper center footer-links mb-0">
-                <a class="title" href="https://github.com/edmundlam/ngram-type-fr#features" target="_blank">
+                <a class="title" href="https://github.com/ghaarm/ngram-type-ger#features" target="_blank">
                     <i class="fa fa-question-circle"></i>
                     <div class="label">
                         How to Use
                     </div>
                 </a>
-                <a class="title" href="https://github.com/edmundlam/ngram-type-fr/issues/new" target="_blank">
+                <a class="title" href="https://github.com/ghaarm/ngram-type-ger/issues/new" target="_blank">
                     <i class="fa fa-wrench"></i>
                     <div class="label">
                         Suggest Improvements

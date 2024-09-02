@@ -22,6 +22,41 @@ bigrams_top_200_mit_words <- bigrams %>%
 
 print(bigrams_top_200_mit_words)
 
+pentagrams_top_200 <- ngrams_rds %>%
+  arrange(desc(ngram_weight)) %>%
+  filter(length == 5) %>%
+  slice(1:200) %>%
+  select(ending)
+
+nrow(pentagrams_top_200)
+
+print(pentagrams_top_200)
+
+pentagrams_top_200_mit_words <- ngrams_rds %>%
+ arrange(desc(ngram_weight)) %>%
+    slice(1:200) %>%
+    select(ending, top, top2, top3)
+
+print(pentagrams_top_200_mit_words)
+
+
+hexagrams_top_200 <- ngrams_rds %>%
+  arrange(desc(ngram_weight)) %>%
+  filter(length == 6) %>%
+  slice(1:200) %>%
+  select(ending)
+
+nrow(hexagrams_top_200)
+
+print(hexagrams_top_200)
+
+hexagrams_top_200_mit_words <- ngrams_rds %>%
+ arrange(desc(ngram_weight)) %>%
+    slice(1:200) %>%
+    select(ending, top, top2, top3)
+
+print(hexagrams_top_200_mit_words)
+
 words_top_100_200 <- ngrams_rds %>%
   filter(is_word == 1) %>%
   arrange(desc(ngram_weight)) %>%

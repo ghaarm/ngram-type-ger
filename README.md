@@ -1,7 +1,7 @@
 # German Ngram Type
 
 This project is a fork of https://github.com/ranelpadon/ngram-type, 
-but using German ngrams that I researched myself. The hosted version 
+but using German ngrams that I researched myself. And extended by penta- and hexagramms. The hosted version 
 is located at https://ghaarm.github.io/ngram-type-ger/.
 
 For how I found and extracted the German n-grams, see the 
