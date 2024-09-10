@@ -1,6 +1,7 @@
 // https://kryptografie.de/kryptografie/kryptoanalyse/haeufigkeitsverteilung.htm#hepta
 //
 const bigrams = [
+
   "en", 
   "er",	
   "ch",	

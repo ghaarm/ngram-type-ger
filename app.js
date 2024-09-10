@@ -12,6 +12,7 @@ var ngramTypeConfig = {
             tetragrams: tetragrams,
             pentagrams: pentagrams,
             hexagrams: hexagrams,
+            syllables: syllables,
             words: words,
             custom_words: null,
 
@@ -62,6 +63,16 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 hexagrams: {
+                    scope: 50,
+                    combination: 2,
+                    repetition: 3,
+                    minimumWPM: 40,
+                    minimumAccuracy: 100,
+                    WPMs: [],
+                    phrases: {},
+                    phrasesCurrentIndex: 0,
+                },
+                syllables: {
                     scope: 50,
                     combination: 2,
                     repetition: 3,

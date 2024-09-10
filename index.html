@@ -35,6 +35,7 @@
     <script src="./ngrams/tetragrams.js"></script>
     <script src="./ngrams/pentagrams.js"></script>
     <script src="./ngrams/hexagrams.js"></script>
+    <script src="./ngrams/syllables.js"></script>
     <script src="./ngrams/words.js"></script>
 
     <!-- VueJS -->
@@ -174,6 +175,17 @@
                             v-model="data.source"
                         >
                         <label class="custom-control-label" for="hexa-grams">Hexagrams</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input
+                            type="radio"
+                            class="custom-control-input"
+                            id="syllables"
+                            name="source-radio-group"
+                            value="syllables"
+                            v-model="data.source"
+                        >
+                        <label class="custom-control-label" for="syllables">Syllables</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input
