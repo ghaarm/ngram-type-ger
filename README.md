@@ -4,6 +4,9 @@ This project is a fork of https://github.com/ranelpadon/ngram-type,
 but using German ngrams that I researched myself. And extended by penta- and hexagramms. The hosted version 
 is located at https://ghaarm.github.io/ngram-type-ger/.
 
+Ahnwarez PR to highlight current word is integrated (https://github.com/ranelpadon/ngram-type/pull/37).
+
+
 For how I found and extracted the German n-grams, see the 
 [ETL](https://github.com/ghaarm/ngram-type-ger/tree/master/etl) section.
 
