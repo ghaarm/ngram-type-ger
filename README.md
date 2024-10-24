@@ -6,6 +6,7 @@ is located at https://ghaarm.github.io/ngram-type-ger/.
 
 Ahnwarez PR to highlight current word is integrated (https://github.com/ranelpadon/ngram-type/pull/37).
 
+In order to train the e.g. top 51 - 100 ngrams a selection for the start of the ngrams has been added. "Start at:" and then Ngram number can slice a specific part of the ngram list. Otherwise if you want to train for example the ngrams 51 - 100 you also must train the ngrams 1 - 50.if you want to train for example the ngrams 51 - 100 you also must train the ngrams 1 - 50.
 
 For how I found and extracted the German n-grams, see the 
 [ETL](https://github.com/ghaarm/ngram-type-ger/tree/master/etl) section.

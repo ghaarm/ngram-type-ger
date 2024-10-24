@@ -23,6 +23,7 @@ var ngramTypeConfig = {
                 soundPassedThresholdEnabled: true,
                 soundFailedThresholdEnabled: true,
                 bigrams: {
+                    startIndex: 0,
                     scope: 50,
                     combination: 2,
                     repetition: 3,
@@ -33,6 +34,7 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 trigrams: {
+                    startIndex: 0,
                     scope: 50,
                     combination: 2,
                     repetition: 3,
@@ -43,6 +45,7 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 tetragrams: {
+                    startIndex: 0,
                     scope: 50,
                     combination: 2,
                     repetition: 3,
@@ -53,6 +56,7 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 pentagrams: {
+                    startIndex: 0,
                     scope: 50,
                     combination: 2,
                     repetition: 3,
@@ -63,6 +67,7 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 hexagrams: {
+                    startIndex: 0,
                     scope: 50,
                     combination: 2,
                     repetition: 3,
@@ -73,6 +78,7 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 syllables: {
+                    startIndex: 0,
                     scope: 50,
                     combination: 2,
                     repetition: 3,
@@ -83,6 +89,7 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 words: {
+                    startIndex: 0,
                     scope: 50,
                     combination: 2,
                     repetition: 3,
@@ -93,6 +100,7 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 custom_words: {
+                    startIndex: null,
                     scope: null,
                     combination: 2,
                     repetition: 3,
