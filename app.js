@@ -292,11 +292,14 @@ var ngramTypeConfig = {
             var source = this[dataSource];
             var scope = this.data[dataSource].scope
 
+            // Neue Variable für den Startindex, z. B. von Benutzer gesetzt
+            var startIndex = this.data[dataSource].startIndex || 0; // Standardwert 0 (falls kein Startindex gesetzt wurde)
+
             // Use indexing to limit scope of Ngrams.
             // Select the Top 50/100/150/200.
             // `Custom` has no scope.
             if (scope) {
-                source = source.slice(0, scope)
+                source = source.slice(startIndex, scope)
             }
 
             var ngrams = this.deepCopy(source);
