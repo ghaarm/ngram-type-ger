@@ -37,6 +37,7 @@
     <script src="./ngrams/hexagrams.js"></script>
     <script src="./ngrams/syllables.js"></script>
     <script src="./ngrams/words.js"></script>
+    <script src="./ngrams/words_cap.js"></script>
 
     <!-- VueJS -->
     <!-- Should use the development/unminified version so that the Vue DevTools could be used. -->
@@ -197,6 +198,17 @@
                             v-model="data.source"
                         >
                         <label class="custom-control-label" for="words">Words</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input
+                            type="radio"
+                            class="custom-control-input"
+                            id="words_cap"
+                            name="source-radio-group"
+                            value="words"
+                            v-model="data.source"
+                        >
+                        <label class="custom-control-label" for="words">Words (Caps)</label>
                     </div>
                     <div class="custom-control custom-radio">
                         <input
