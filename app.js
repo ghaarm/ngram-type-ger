@@ -14,7 +14,7 @@ var ngramTypeConfig = {
             hexagrams: hexagrams,
             syllables: syllables,
             words: words,
-            words_cap: words_cap 
+            words_cap: words_cap,
             custom_words: null,
 
             data: {
