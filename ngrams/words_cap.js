@@ -1,5 +1,5 @@
 // https://kryptografie.de/kryptografie/kryptoanalyse/haeufigkeitsverteilung.htm#hepta
-window.words = [
+window.words_cap = [
   "die",
   "der",
   "und",
