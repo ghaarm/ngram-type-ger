@@ -14,6 +14,7 @@ var ngramTypeConfig = {
             hexagrams: hexagrams,
             syllables: syllables,
             words: words,
+            words_cap: words_cap 
             custom_words: null,
 
             data: {
@@ -89,6 +90,17 @@ var ngramTypeConfig = {
                     phrasesCurrentIndex: 0,
                 },
                 words: {
+                    startIndex: 0,
+                    scope: 50,
+                    combination: 2,
+                    repetition: 3,
+                    minimumWPM: 40,
+                    minimumAccuracy: 100,
+                    WPMs: [],
+                    phrases: {},
+                    phrasesCurrentIndex: 0,
+                },
+                words_cap: {
                     startIndex: 0,
                     scope: 50,
                     combination: 2,
