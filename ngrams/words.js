@@ -108,7 +108,7 @@ window.words = [
   "Kind",
   "etwas",
   "Tag",
-  "nun",
+  "wissen",
   "finden",
   "nichts",
   "bleiben",
