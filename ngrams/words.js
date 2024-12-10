@@ -116,7 +116,7 @@ window.words = [
   "klein",
   "zwischen",
   "alt",
-  "gegen",
+  "eigentlich",
   "liegen",
   "Jahr",
   "nein",
