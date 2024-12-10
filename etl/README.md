@@ -8,8 +8,10 @@ Most of the ngrams haven been chosed according to
 
 https://kryptografie.de/kryptografie/kryptoanalyse/haeufigkeitsverteilung.htm
 
-As for German bigrams and words only the 100 most frequent are mentioned, the missing 101-200 bigrams and words have been supplemented with `de_word_final_ngrams.csv`  obtained from https://gist.github.com/gartenfeld/4ea0c5b4091f6fefb691c5b6ebd5d935,
+As for German bigrams and words only the 100 most frequent are mentioned, the missing 101-200 bigrams and have been supplemented with `de_word_final_ngrams.csv`  obtained from https://gist.github.com/gartenfeld/4ea0c5b4091f6fefb691c5b6ebd5d935,
 which is a frequency table of the most common German ngrams/words. Unfortunately, it's not mentioned how the frequency table was built.
+
+The missing 101-200 words have been supplemented with word list of "The German Professor" (https://www.thegermanprofessor.com/top-500-german-words/top-500-german-words-101-200/). The list derives from Randall Jones & Erwin Tschirner’s "A Frequency Dictionary of German. Core Vocabulary for Learners", which lists the 4034 (!) most commonly used words in German (https://www.amazon.com/exec/obidos/ASIN/0415316332/ref=nosim/thegermanprof-20).
 
 R has then be used to extract the most 101-200 bigrams/words. 
 
